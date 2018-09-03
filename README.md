@@ -22,11 +22,23 @@
 
 ## The problem
 
-// TODO
+Simplest possible country selector with flags. Key idea is to use emojis instead of SVGs
+and HTML select instead custom input.
 
-## This solution
-
-// TODO
+<table>
+<thead>
+<tr>
+  <th>iOS</th>
+  <th>Android</th>
+  <th>Desktop</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td width="33%" valign="top"><a target="_blank" rel="noopener noreferrer" href="https://raw.githubusercontent.com/stereobooster/react-simple-country-select/master/other/screenshots/ios.png"><img src="https://raw.githubusercontent.com/stereobooster/react-simple-country-select/master/other/screenshots/ios.png" alt="ios screenshot" style="max-width:100%;"></a></td>
+  <td width="33%" valign="top"><a target="_blank" rel="noopener noreferrer" href="https://raw.githubusercontent.com/stereobooster/react-simple-country-select/master/other/screenshots/android.png"><img src="https://raw.githubusercontent.com/stereobooster/react-simple-country-select/master/other/screenshots/android.png" alt="android screenshot" style="max-width:100%;"></a></td>
+  <td width="33%" valign="top"><a target="_blank" rel="noopener noreferrer" href="https://raw.githubusercontent.com/stereobooster/react-simple-country-select/master/other/screenshots/desktop.png"><img src="https://raw.githubusercontent.com/stereobooster/react-simple-country-select/master/other/screenshots/desktop.png" alt="desktop screenshot" style="max-width:100%;"></a></td>
+</tr></tbody></table>
 
 ## Table of Contents
 
@@ -35,7 +47,6 @@
 
 - [Installation](#installation)
 - [Usage](#usage)
-- [Inspiration](#inspiration)
 - [Other Solutions](#other-solutions)
 - [Contributors](#contributors)
 - [LICENSE](#license)
@@ -55,14 +66,9 @@ npm install --save react-simple-country-select
 
 // TODO
 
-## Inspiration
-
-// TODO
-
 ## Other Solutions
 
-I'm not aware of any, if you are please [make a pull request][prs] and add it
-here!
+- [react-flags-select](https://ekwonye-richard.github.io/react-flags-select/)
 
 ## Contributors
 
